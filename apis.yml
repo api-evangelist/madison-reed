@@ -1,8 +1,26 @@
 aid: madison-reed
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/madison-reed.png
 name: Madison-reed
-description: 'Madison-reed is a company surfaced as a portfolio company of norwest-venture-partners, true-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Madison Reed is a female-founded and female-led direct-to-consumer hair
+  color company offering 8-Free permanent, demi-permanent, and root touch-up hair
+  color crafted in Italy, sold as at-home kits and delivered as professional services
+  at 95+ Hair Color Bar locations across the United States. The company blends
+  e-commerce retail, subscription replenishment, and in-person salon booking. It was
+  surfaced as a portfolio company of Norwest Venture Partners and True Ventures. As
+  of this enrichment pass the company publishes no public developer program, API
+  documentation, or machine-readable API surface; this profile captures identity and
+  probed domain-security posture only.'
 url: https://raw.githubusercontent.com/api-evangelist/madison-reed/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Beauty
+- Hair Color
+- Cosmetics
+- Direct to Consumer
+- E-Commerce
+- Retail
+- Consumer Goods
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +49,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://madison-reed.com
+  url: https://www.madison-reed.com
+- type: DomainSecurity
+  url: security/madison-reed-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
