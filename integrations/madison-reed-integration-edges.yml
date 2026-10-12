@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/madison-reed/integrations
+- https://n8n.io/integrations/madison-reed/
+- https://composio.dev/toolkits/madison-reed
+- https://monid.ai/tools/madison-reed
+checked:
+- https://composio.dev/toolkits/madison-reed
+- https://monid.ai/tools/madison-reed
+- https://n8n.io/integrations/madison-reed/
+- https://zapier.com/apps/madison-reed/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
